@@ -1,0 +1,440 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:680XX-CPU-BJH
+LIBS:4000series-BJH
+LIBS:AMIGA-Custom-Chipset
+LIBS:Basics-BJH
+LIBS:buzzer
+LIBS:Connectors-BJH
+LIBS:Devices-BJH
+LIBS:LCD-BJH
+LIBS:MemoryDevices-BJH
+LIBS:Microchip-BJH
+LIBS:Modules-BJH
+LIBS:OpAmps-BJH
+LIBS:Opto-BJH
+LIBS:Oscillators-BJH
+LIBS:PowerSymbols-BJH
+LIBS:Regulators-BJH
+LIBS:Relays
+LIBS:Transistors-BJH
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ULN2803 U?
+U 1 1 59FA1D2F
+P 4100 3700
+F 0 "U?" H 3850 4200 60  0000 C CNN
+F 1 "ULN2803" H 4000 3100 60  0000 C CNN
+F 2 "" H 3500 4000 60  0000 C CNN
+F 3 "" H 3500 4000 60  0000 C CNN
+	1    4100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X10 P?
+U 1 1 59FA1EB7
+P 1600 3850
+F 0 "P?" H 1600 4400 50  0000 C CNN
+F 1 "CONN_01X10" V 1700 3850 50  0000 C CNN
+F 2 "" H 1600 3850 50  0000 C CNN
+F 3 "" H 1600 3850 50  0000 C CNN
+	1    1600 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3400 3500 3400
+Wire Wire Line
+	1800 3500 3500 3500
+Wire Wire Line
+	1800 3600 3500 3600
+Wire Wire Line
+	1800 3700 3500 3700
+Wire Wire Line
+	1800 3800 3500 3800
+Wire Wire Line
+	1800 3900 3500 3900
+Wire Wire Line
+	1800 4000 3500 4000
+Wire Wire Line
+	1800 4100 3500 4100
+$Comp
+L R R?
+U 1 1 59FA4129
+P 1900 2950
+F 0 "R?" V 1980 2950 50  0000 C CNN
+F 1 "1k" V 1900 2950 50  0000 C CNN
+F 2 "" V 1830 2950 50  0000 C CNN
+F 3 "" H 1900 2950 50  0000 C CNN
+	1    1900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59FA4154
+P 2100 2950
+F 0 "R?" V 2180 2950 50  0000 C CNN
+F 1 "1k" V 2100 2950 50  0000 C CNN
+F 2 "" V 2030 2950 50  0000 C CNN
+F 3 "" H 2100 2950 50  0000 C CNN
+	1    2100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59FA4178
+P 2300 2950
+F 0 "R?" V 2380 2950 50  0000 C CNN
+F 1 "1k" V 2300 2950 50  0000 C CNN
+F 2 "" V 2230 2950 50  0000 C CNN
+F 3 "" H 2300 2950 50  0000 C CNN
+	1    2300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59FA41A0
+P 2500 2950
+F 0 "R?" V 2580 2950 50  0000 C CNN
+F 1 "1k" V 2500 2950 50  0000 C CNN
+F 2 "" V 2430 2950 50  0000 C CNN
+F 3 "" H 2500 2950 50  0000 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59FA41D2
+P 2700 2950
+F 0 "R?" V 2780 2950 50  0000 C CNN
+F 1 "1k" V 2700 2950 50  0000 C CNN
+F 2 "" V 2630 2950 50  0000 C CNN
+F 3 "" H 2700 2950 50  0000 C CNN
+	1    2700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59FA4202
+P 2900 2950
+F 0 "R?" V 2980 2950 50  0000 C CNN
+F 1 "1k" V 2900 2950 50  0000 C CNN
+F 2 "" V 2830 2950 50  0000 C CNN
+F 3 "" H 2900 2950 50  0000 C CNN
+	1    2900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59FA428E
+P 3100 2950
+F 0 "R?" V 3180 2950 50  0000 C CNN
+F 1 "1k" V 3100 2950 50  0000 C CNN
+F 2 "" V 3030 2950 50  0000 C CNN
+F 3 "" H 3100 2950 50  0000 C CNN
+	1    3100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59FA42CA
+P 3300 2950
+F 0 "R?" V 3380 2950 50  0000 C CNN
+F 1 "1k" V 3300 2950 50  0000 C CNN
+F 2 "" V 3230 2950 50  0000 C CNN
+F 3 "" H 3300 2950 50  0000 C CNN
+	1    3300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3100 1900 3400
+Connection ~ 1900 3400
+Wire Wire Line
+	2100 3100 2100 3500
+Connection ~ 2100 3500
+Wire Wire Line
+	2300 3100 2300 3600
+Connection ~ 2300 3600
+Wire Wire Line
+	2500 3100 2500 3700
+Connection ~ 2500 3700
+Wire Wire Line
+	2700 3100 2700 3800
+Connection ~ 2700 3800
+Wire Wire Line
+	2900 3100 2900 3900
+Connection ~ 2900 3900
+Wire Wire Line
+	3100 3100 3100 4000
+Connection ~ 3100 4000
+Wire Wire Line
+	3300 3100 3300 4100
+Connection ~ 3300 4100
+$Comp
+L jmp_3way J?
+U 1 1 59FA462E
+P 2000 2550
+F 0 "J?" H 2000 2750 60  0000 C CNN
+F 1 "jmp_3way" H 2000 2400 60  0001 C CNN
+F 2 "" H 2000 2550 60  0000 C CNN
+F 3 "" H 2000 2550 60  0000 C CNN
+	1    2000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L jmp_3way J?
+U 1 1 59FA46A8
+P 2200 2550
+F 0 "J?" H 2200 2750 60  0000 C CNN
+F 1 "jmp_3way" H 2200 2400 60  0001 C CNN
+F 2 "" H 2200 2550 60  0000 C CNN
+F 3 "" H 2200 2550 60  0000 C CNN
+	1    2200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L jmp_3way J?
+U 1 1 59FA46E4
+P 2400 2550
+F 0 "J?" H 2400 2750 60  0000 C CNN
+F 1 "jmp_3way" H 2400 2400 60  0001 C CNN
+F 2 "" H 2400 2550 60  0000 C CNN
+F 3 "" H 2400 2550 60  0000 C CNN
+	1    2400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L jmp_3way J?
+U 1 1 59FA471F
+P 2600 2550
+F 0 "J?" H 2600 2750 60  0000 C CNN
+F 1 "jmp_3way" H 2600 2400 60  0001 C CNN
+F 2 "" H 2600 2550 60  0000 C CNN
+F 3 "" H 2600 2550 60  0000 C CNN
+	1    2600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L jmp_3way J?
+U 1 1 59FA475D
+P 2800 2550
+F 0 "J?" H 2800 2750 60  0000 C CNN
+F 1 "jmp_3way" H 2800 2400 60  0001 C CNN
+F 2 "" H 2800 2550 60  0000 C CNN
+F 3 "" H 2800 2550 60  0000 C CNN
+	1    2800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L jmp_3way J?
+U 1 1 59FA47A2
+P 3000 2550
+F 0 "J?" H 3000 2750 60  0000 C CNN
+F 1 "jmp_3way" H 3000 2400 60  0001 C CNN
+F 2 "" H 3000 2550 60  0000 C CNN
+F 3 "" H 3000 2550 60  0000 C CNN
+	1    3000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L jmp_3way J?
+U 1 1 59FA47E6
+P 3200 2550
+F 0 "J?" H 3200 2750 60  0000 C CNN
+F 1 "jmp_3way" H 3200 2400 60  0001 C CNN
+F 2 "" H 3200 2550 60  0000 C CNN
+F 3 "" H 3200 2550 60  0000 C CNN
+	1    3200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L jmp_3way J?
+U 1 1 59FA482D
+P 3400 2550
+F 0 "J?" H 3400 2750 60  0000 C CNN
+F 1 "jmp_3way" H 3400 2400 60  0001 C CNN
+F 2 "" H 3400 2550 60  0000 C CNN
+F 3 "" H 3400 2550 60  0000 C CNN
+	1    3400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2450 3550 2450
+Connection ~ 3200 2450
+Connection ~ 3000 2450
+Connection ~ 2800 2450
+Connection ~ 2600 2450
+Connection ~ 2400 2450
+Connection ~ 2200 2450
+Wire Wire Line
+	1900 2800 1900 2550
+Wire Wire Line
+	1900 2550 2000 2550
+Wire Wire Line
+	2100 2800 2100 2550
+Wire Wire Line
+	2100 2550 2200 2550
+Wire Wire Line
+	2300 2800 2300 2550
+Wire Wire Line
+	2300 2550 2400 2550
+Wire Wire Line
+	2500 2800 2500 2550
+Wire Wire Line
+	2500 2550 2600 2550
+Wire Wire Line
+	2700 2800 2700 2550
+Wire Wire Line
+	2700 2550 2800 2550
+Wire Wire Line
+	2900 2800 2900 2550
+Wire Wire Line
+	2900 2550 3000 2550
+Wire Wire Line
+	3100 2800 3100 2550
+Wire Wire Line
+	3100 2550 3200 2550
+Wire Wire Line
+	3300 2800 3300 2550
+Wire Wire Line
+	3300 2550 3400 2550
+Wire Wire Line
+	2000 2650 3550 2650
+Connection ~ 2200 2650
+Connection ~ 2400 2650
+Connection ~ 2600 2650
+Connection ~ 2800 2650
+Connection ~ 3000 2650
+Connection ~ 3200 2650
+$Comp
+L jmp_3way J?
+U 1 1 59FA5D12
+P 3550 2150
+F 0 "J?" V 3450 2150 60  0000 C CNN
+F 1 "jmp_3way" H 3600 1975 60  0001 C CNN
+F 2 "" H 3550 2150 60  0000 C CNN
+F 3 "" H 3550 2150 60  0000 C CNN
+	1    3550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59FA60CF
+P 3550 2800
+F 0 "#PWR?" H 3550 2550 50  0001 C CNN
+F 1 "GND" H 3550 2650 50  0000 C CNN
+F 2 "" H 3550 2800 50  0000 C CNN
+F 3 "" H 3550 2800 50  0000 C CNN
+	1    3550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2650 3550 2800
+Connection ~ 3400 2650
+Wire Wire Line
+	3550 2450 3550 2150
+Connection ~ 3400 2450
+$Comp
+L GND #PWR?
+U 1 1 59FA6D23
+P 2000 4500
+F 0 "#PWR?" H 2000 4250 50  0001 C CNN
+F 1 "GND" H 2000 4350 50  0000 C CNN
+F 2 "" H 2000 4500 50  0000 C CNN
+F 3 "" H 2000 4500 50  0000 C CNN
+	1    2000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4500 2000 4300
+Wire Wire Line
+	2000 4300 1800 4300
+Wire Wire Line
+	2250 4200 1800 4200
+$Comp
+L +12V_BJH #PWR?
+U 1 1 59FA7335
+P 3850 2100
+F 0 "#PWR?" H 3850 2290 20  0001 C CNN
+F 1 "+12V_BJH" H 3850 2290 51  0001 C CNN
+F 2 "" H 3850 2100 60  0001 C CNN
+F 3 "" H 3850 2100 60  0001 C CNN
+F 4 "+12V" H 3850 2300 60  0000 C CNB "NAME"
+	1    3850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +V_IO_BJH #PWR?
+U 1 1 59FA73D9
+P 3250 2100
+F 0 "#PWR?" H 3250 2290 20  0001 C CNN
+F 1 "+V_IO_BJH" H 3250 2290 51  0001 C CNN
+F 2 "" H 3250 2100 60  0001 C CNN
+F 3 "" H 3250 2100 60  0001 C CNN
+F 4 "+V_IO" H 3250 2300 60  0000 C CNB "NAME"
+	1    3250 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2150 3450 2150
+Wire Wire Line
+	3850 2150 3650 2150
+$Comp
+L +V_IO_BJH #PWR?
+U 1 1 59FA762B
+P 2650 4450
+F 0 "#PWR?" H 2650 4640 20  0001 C CNN
+F 1 "+V_IO_BJH" H 2650 4640 51  0001 C CNN
+F 2 "" H 2650 4450 60  0001 C CNN
+F 3 "" H 2650 4450 60  0001 C CNN
+F 4 "+V_IO" H 2650 4650 60  0000 C CNB "NAME"
+	1    2650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4200 2250 4500
+Wire Wire Line
+	2250 4500 2650 4500
+Text Notes 3800 3000 0    60   ~ 0
+Switchable Pull-ups:\n\nSelect:\n\n* No pull\n* Pull GND\n* Pull 12V\n* Pull V IO (e.g. voltage from attached DIO box)
+$EndSCHEMATC
