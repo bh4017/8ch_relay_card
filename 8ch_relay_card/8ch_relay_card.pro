@@ -1,4 +1,4 @@
-update=Wed 01 Nov 2017 19:14:40 GMT
+update=02/11/2017 15:05:29
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../../github/hoskinstech/bjh-kicad-schematic-library
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -76,3 +76,21 @@ LibName44=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/PowerSymbol
 LibName45=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Regulators-BJH
 LibName46=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Relays
 LibName47=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Transistors-BJH
+LibName48=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/680XX-CPU-BJH
+LibName49=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/4000series-BJH
+LibName50=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/AMIGA-Custom-Chipset
+LibName51=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Basics-BJH
+LibName52=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/buzzer
+LibName53=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Connectors-BJH
+LibName54=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Devices-BJH
+LibName55=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/LCD-BJH
+LibName56=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/MemoryDevices-BJH
+LibName57=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Microchip-BJH
+LibName58=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Modules-BJH
+LibName59=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/OpAmps-BJH
+LibName60=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Opto-BJH
+LibName61=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Oscillators-BJH
+LibName62=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/PowerSymbols-BJH
+LibName63=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Regulators-BJH
+LibName64=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Relays
+LibName65=C:/cygwin64/home/bhoskins/git/bh4017/bjh-kicad-schematic-library/Transistors-BJH
